@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Servicios</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="RagePCEstilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Cabecera -->
+        <header>
+            <div class="navegacion">
+                <a class="nombre">RAGEPC</a>
+                <a class="links" href="index.html">Página principal</a>
+                <a class ="links" href="productos.html">Productos</a>
+                <a class ="links" href="servicios.html">Servicios</a>
+                <a class ="links" href="quienes_somos.html">¿Quiénes somos?</a>
+            </div>
+        </header>
+
+        <div class="servicios-container">
+        <!-- PC a medida -->
+            <section>
+                <div class="pc-a-medida-container">
+                    <div class="pc-a-medida">
+                        <p class="titulo">CREA TU PC A MEDIDA</p>
+                        <p class="descripcion">¿Estás pensando en montar el PC de tus sueños? ¡Estás en el lugar adecuado! A través de este formulario podrás ponerte en contacto con nuestros expertos para que realicen el presupuesto más acorde con el ordenador que siempre soñaste. Rellénalo ahora y le contactaremos con la mayor brevedad posible.</p>
+                        <div class="formulario-container">
+                            <form class="formulario">
+                                <p>¿Para qué vas a usar tu PC?</p>
+                                <select id="uso" name="uso">
+                                    <option value="gaming">Gaming</option>
+                                    <option value="edicion">Edición</option>
+                                    <option value="multimedia">Multimedia</option>
+                                    <option value="ofimatica">Ofimática</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                                <br>
+                                <p>¿Cuál es el presupuesto aproximado?</p>
+                                <select id="presupuesto" name="presupuesto">
+                                    <option value="500-700">500&#x20AC a 700&#x20AC</option>
+                                    <option value="700-900">700&#x20AC a 900&#x20AC</option>
+                                    <option value="900-1100">900&#x20AC a 1100&#x20AC</option>
+                                    <option value="1100-1300">1100&#x20AC a 1300&#x20AC</option>
+                                    <option value="+1300">+1300&#x20AC</option>
+                                </select>
+                                <br>
+                                <p>Nombre completo</p>
+                                <input type="text" id="nombre" name="nombre">
+                                <br>
+                                <p>Correo electrónico</p>
+                                <input type="email" id="email" name="email">
+                                <p>Numero de teléfono</p>
+                                <input type="text" id="telefono" name="telefono">
+                                <br>
+                                <div class="botones">
+                                    <input type="reset" id="reset">
+                                    <input type="submit" id="submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Servidores -->
+            <section>
+                <div class="servidores-container">
+                    <div class="servidores">
+                        <div class="productos-container">
+                            <p class="titulo">ALQUILER DE SERVIDORES</p>
+                            <p class="descripcion">Aquí encontrarás la opción de servidor dedicado que más se adecúe a tus necesidades. Gracias a la contratación por horas pagarás solo lo que utilices, sin sobrecostes.</p>
+                            <div class="producto">
+                                <img src="archivos/pc_4k.png">
+                                <p class="titulo">Servidor Xeon PRO</p>
+                                <ul class="descripcion">
+                                    <li>Intel Xeon E-2378</li>
+                                    <br>
+                                    <li>8 Core/16 Threads x 2.6GHz (4.8GHz Turbo Boost)</li>
+                                    <br>
+                                    <li>64GB RAM (DDR4 ECC)</li>
+                                    <br>
+                                    <li>1TB (2 x 1TB NVMe SSD) Software RAID 1</li>
+                                </ul>
+                            </div>
+                            <div class="producto">
+                                <img src="archivos/pc_4k.png">
+                                <p class="titulo">Servidor Xeon BASIC</p>
+                                <ul class="descripcion">
+                                    <li>Intel Xeon E-2356G</li>
+                                    <br>
+                                    <li>6 Cores/12 Threads x 3.2GHz (5.0GHz Turbo Boost)</li>
+                                    <br>
+                                    <li>32GB RAM (DDR4 ECC)</li>
+                                    <br>
+                                    <li>512GB (2 x 512GB NVMe SSD) Software RAID 1</li>
+                                </ul>
+                                <p class="descripcion"></p>
+                            </div>
+                            <div class="producto">
+                                <img src="archivos/pc_4k.png">
+                                <p class="titulo">Servidor Ryzen PRO</p>
+                                <ul class="descripcion">
+                                    <li>AMD Ryzen 7 PRO 3700</li>
+                                    <br>
+                                    <li>8 Cores/16 Threads x 3.6GHz (4.2Hz Turbo Boost)</li>
+                                    <br>
+                                    <li>64GB RAM (DDR4 ECC)</li>
+                                    <br>
+                                    <li>1TB (2 x 1TB NVMe SSD) Software RAID 1</li>
+                                </ul>
+                            </div>
+                            <div class="producto">
+                                <img src="archivos/pc_4k.png">
+                                <p class="titulo">Servidor Ryzen BASIC</p>
+                                <ul class="descripcion">
+                                    <li>AMD Ryzen 5 PRO 3600</li>
+                                    <br>
+                                    <li>6 Cores/12 Threads x 3.6GHz (4.2Hz Turbo Boost)</li>
+                                    <br>
+                                    <li>32GB RAM (DDR4 ECC)</li>
+                                    <br>
+                                    <li>512GB (2 x 512GB NVMe SSD) Software RAID 1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Pie de página -->
+        <footer>
+            <div class="piedepagina">
+                <a>&#169 David Guerrero Merino, 2023</a>
+                <a>Todos los derechos reservados</a>
+            </div>
+        </footer>
+
+    </body>
+</html>

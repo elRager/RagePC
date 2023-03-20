@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>RagePCs</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estiloweb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Cabecera -->
+        <header>
+            <h1 id="titulo">RagePCs</h1>
+        </header>
+
+        <!-- Links -->
+        <nav>
+            <table class="links">
+                <tr>
+                    <td width="100px">
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/512px-Twitter-logo.svg.png" width="50">
+                        </a>
+                    </td>
+                    <td width="100px">
+                        <a href="https://youtube.com" target="_blank">
+                           <img src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png" width="150">
+                        </a>
+                    </td>
+                    <td width="100px">
+                        <a href="https://tiktok.com" target="_blank">
+                            <img src="https://www.pngplay.com/wp-content/uploads/9/TikTok-Logo-Download-Free-PNG.png" width="100">
+                        </a>
+                      </td>
+                </tr>
+            </table>
+        </nav>
+
+        <!-- PCS A LA VENTA -->
+        <article>
+            <table class="pcs">
+                <tr class="titulos_pcs">
+                    <th>PC 4K</th>
+                    <th>PC 2K</th>
+                    <th>PC 1080P </th>
+                    <th>PC BASIC</th>
+                </tr>
+                <tr class="fotos_pcs"> 
+                    <th>
+                        <img src="https://www.fiercepc.co.uk/media/catalog/product/cache/8b8295763f7dd0acbbe74cee8b9ed8d0/p/c/pc5_standard_rgb_1_1_1.png" width="250px">
+                    </th>
+                    <th>
+                        <img src="https://d10mhq06fikmnr.cloudfront.net/catalog/product/thumbnail/8db7a47afe20c27ba249d54600951d1c/image/1000x1000/110/80/i/m/image_2022_08_03t12_26_11_461z_3.png" width="250px">
+                    </th>
+                    <th>
+                        <img src="https://nzxt.com/assets/cms/34299/1648684157-creator-plus-pc-hero-white.png?auto=format&fit=crop&h=1000&w=1000" width="250px">
+                    </th>
+                    <th>
+                        <img src="https://gamingpcshop.nl/tmp/cache/img/4a66ed6e.1645782951/01.%20Raider%20CA3.png?WyJ3ZWJyb290XC9maWxlc1wvY2F0YWxvZ1wvcHJvZHVjdFwvaW1hZ2VcLzM5N1wvMDEuIFJhaWRlciBDQTMucG5nIix7ImFscGhhIjowLCJoZWlnaHQiOjM1MCwicmVzaXplLW1ldGhvZCI6ImZpdC1ib3giLCJ3aWR0aCI6MzUwfV0~" width="250px">
+                    </th>
+                </tr>
+            </table>
+        </article>
+        <br>
+
+        <!-- VIDEO -->
+        <article>
+            <div class="sidebar">
+                <div class="video">
+                    <iframe width="100%" height="620px" src="https://www.youtube.com/embed/julpVVIgVVY" title="Corsair 4000D White Theme - Time Lapse Build" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; muted" allowfullscreen></iframe>
+                </div>
+                <div class ="separacion">
+
+                </div>
+                <div class="formulario">
+                    <h1 style="text-align:center">Formulario de Contacto</h1>
+                    <div class="uso">
+                        <h3>¿Para qué usas tu PC?</h3>
+                        <form action="/envio_formulario.php" method="get">
+                            <input type="checkbox" id="uso1" name="uso1" value="Trabajo">
+                            <label for="uso1">Trabajo</label><br>
+                            <input type="checkbox" id="uso2" name="uso2" value="Trabajo">
+                            <label for="uso2">Gaming</label><br>
+                            <input type="checkbox" id="uso3" name="uso3" value="Trabajo">
+                            <label for="uso3">Edicion de foto y/o video</label><br>
+                        </form>
+                        <form class="datos" action="/envio_formulario.php" method="get">
+                    </div>
+                        <table class="tabla_datos">
+                            <tr>
+                                <td><label for="nombre">Nombre:</label></td>
+                                <td><input style="font-size: 30px;" type="text" id="nombre" name="nombre"></td><br>
+                                <td rowspan="4"><input id="submit" type="submit"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input style="font-size: 30px;" type="email" id="email" name="email"></td><br>
+                            </tr>
+                            <tr>
+                                <td><label for="telefono">Telefono:</label></td>
+                                <td><input style="font-size: 30px;" type="text" id="telefono" name="telefono"></td><br>
+                            </tr>
+                            <tr>
+                                <td><label for="direccion">Dirección:</label></td>
+                                <td><input style="font-size: 30px;" type="text" id="direccion" name="direccion"></td><br>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>

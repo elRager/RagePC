@@ -1,0 +1,123 @@
+body {
+    background-color: lightslategray;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+table, td, th {
+    margin: auto;
+}
+
+table.pcs {
+    border-radius: 10px;
+    font-family: 'Unbounded', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-color: darkgray;
+    background-color: darkgray;
+    color: white;
+    font-size: 40px;
+    height: 400px;
+}
+
+table.links {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#titulo {
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    font-size: 80px;
+    height: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#submit {
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 200;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 620px;            
+}
+
+.sidebar > *:nth-child(1) {
+    flex: 1 1 60%;
+}
+
+.sidebar > *:nth-child(2) {
+    flex: 1 1 1%;
+}
+
+.sidebar > *:nth-child(3) {
+    flex: 1 1 39%;
+    background-color: darkgray;
+}
+
+.formulario {
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.formulario > *:nth-child(1) {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datos > *:nth-child(2) {
+    font-size: 30px;
+}
+
+.datos > *:nth-child(5) {
+    font-size: 30px;
+}
+
+table.tabla_datos {
+    font-size: 30px;
+    width: 90%;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.uso {
+    height: 50px;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#submit {
+    width: 140px;
+    height: 80px;
+    margin-left: 0px;
+}
+
+input[type='checkbox'] {
+    height: 20px;
+    width: 20px;
+}
+
+.titulos_pcs th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fotos_pcs th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
